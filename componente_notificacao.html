@@ -24,7 +24,7 @@
     </notification-message>
   </div>
 
-  <!-- Template for Notification Message -->
+  
   <script type="text/x-template"
           id="notification-message-template">
     <div class="ui message" :class="type" v-if="!hidden">
@@ -36,10 +36,10 @@
             </div>
   </script>
 
-  <!-- Import Vue.js -->
+ 
   <script src="https://unpkg.com/vue"></script>
 
-  <!-- Your JavaScript Code :) -->
+  
   <script>
     Vue.component('notification-message', {
       template: '#notification-message-template',
